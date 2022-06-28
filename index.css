@@ -1,0 +1,185 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@200;900&display=swap');
+
+body {
+    background-color: #faebd7;
+    background-image: url("");
+} 
+/* Reseting */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    min-height: 100vh;
+    margin-left: 15rem; 
+    align-items: center;
+    justify-content: center;
+}
+
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar1 {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #d2dfae;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    transition: all 0.3s;
+}
+
+.sidebar-header2 {
+  width: 30% !important;
+  position: fixed;
+  background-color: #404040;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  opacity: 0.9; 
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  transition: all 0.3s;
+  margin-left: 70%;
+  z-index: 999;
+  position: absolute;
+
+}
+
+
+
+
+
+li {
+    margin: 1rem;
+    margin-left: 0.75rem; 
+    color: black !important; 
+    font-size: 110%;
+}
+
+.size {
+    font-size: 90%;
+}
+
+
+p, .sidebar-header {
+    color: black; 
+}
+
+.logo {
+    width: 2rem; 
+    height: 2rem;
+}
+
+.github {
+    width: 2.25rem !important; 
+    height: 2.25rem !important; 
+}
+
+.socials {
+    margin-top: 140%;
+}
+
+
+
+
+.list-unstyled {
+  margin-left: 1rem; 
+}
+
+.name {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+
+
+a, a:hover, h1, h3 {
+    font-family: 'Mada', sans-serif;
+    color: black; 
+}
+
+
+
+
+
+
+h1 {
+    margin-left: 9%; 
+    margin-top: 4.95%; 
+   
+}
+
+
+#name {
+    border-bottom: 1px solid #000; 
+    padding-bottom: 3px; 
+  
+    margin-left: 10%;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.arabic {
+    margin-top: -10%; 
+    margin-left: 10%;
+}
+
+
+
+.naming {
+    width: 60%;
+    height: 1px;
+    background-color: black;
+    border: none;
+    text-decoration: bold;
+    margin-left: 12%;
+    margin-top: -3%;
+    color: white !important ; 
+}
+
+.hero{
+  margin-left: 5%; 
+  margin-top: 20%;
+  font-size: 500% !important;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+
+}
+
+
+.hero2 {
+  width: 80%; 
+  margin: 10%;
+
+}
+
+.contact {
+  margin-top: 15%;
+  color: #fff;
+  text-align: center;
+
+
+}
+
+
+.main {
+    width: 83%;
+    height: 100%; 
+
+}
+
+
+

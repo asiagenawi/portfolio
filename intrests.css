@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+#sidebar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 999;
+  background: #faebd7;
+  color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+
+li {
+  margin: 1rem;
+  margin-left: 1.75rem;
+  color: black;
+  font-size: 110%;
+}
+
+.size {
+  font-size: 90%;
+}
+
+p,
+.sidebar-header {
+  color: black;
+}
+
+.logo {
+  width: 2rem;
+  height: 2rem;
+}
+
+.github {
+  width: 2.25rem !important;
+  height: 2.25rem !important;
+}
+
+.socials {
+  margin-top: 110%;
+}
+
+list-unstyled {
+  margin-left: 1rem;
+}
+
+.name {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.container {
+  /* border-top:3px solid #8DBF43; */
+  width: 100% !important;
+}
+
+a,
+a:hover {
+  color: black;
+  font-family: "Mada" sans-serif;
+}
+
+a {
+  font-family: "Mada" sans-serif;
+}
+
+#name {
+  border-bottom: 1px solid #000;
+  padding-bottom: 3px;
+
+  margin-left: 10%;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  font-family: "Mada", sans-serif;
+}
+
+.arabic {
+  margin-top: -10%;
+  margin-left: 10%;
+}
+
+.naming {
+  width: 60%;
+  height: 1px;
+  background-color: black;
+  border: none;
+  text-decoration: bold;
+  margin-left: 13%;
+  margin-top: -3%;
+}
+
+body {
+  background-color: #faebd7;
+  font-family: "Mada", sans-serif;
+}
+
+h1 {
+  margin-left: 55%;
+}
+
+.line {
+  margin-top: 3%;
+}
+
+.intrests {
+  margin-left: 25%;
+}
+
+.volleyball {
+  margin-top: 3%;
+}
+
+.map {
+  width: 65%;
+  height: 70%;
+  border-color: black;
+  margin-left: 13%;
+}
+#carousel {
+  width: 30%;
+  height: 30%;
+  margin-left: -10%;
+}
+
+.ol {
+  margin-top: 90%;
+
+}
+
+.carousel-control-prev {
+  margin-right: -90%;
+}
+
+.idk{
+  margin-left: 21.5%;
+  border: 3px;
+  border-style: solid;
+  border-color: #5c755e;
+  padding: 1em;
+  width: 73.5%; 
+  font-size: 120%;
+
+}
+
+
+.carousel-item {
+    border: 3px;
+    border-style: solid;
+    border-color: #a97d5d;
+    
+   
+}
+
+.idk2 {
+    border: 3px;
+    border-style: solid;
+    border-color: #9c9f84;
+}
+
+#carousel {
+    margin-left: -13%;
+}
