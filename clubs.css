@@ -32,7 +32,7 @@ body{
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #d2dfae;
+    background: #bab86c;
     color: #fff;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
     transition: all 0.3s;
@@ -259,6 +259,7 @@ h1 {
 .white {
     opacity: 0.75; 
     border-radius: 5%;
+    height: 300px; 
 }
 
 #club-text, #club-highlight-text { 

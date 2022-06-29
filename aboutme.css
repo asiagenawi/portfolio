@@ -3,6 +3,7 @@
 body {
     background-color: #faebd7;
     background-image: url("");
+
 } 
 /* Reseting */
 * {
@@ -32,7 +33,7 @@ body{
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #d2dfae;
+    background: #bab86c;
     color: #fff;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
     transition: all 0.3s;
@@ -165,21 +166,61 @@ h1 {
     margin-right: -25%; 
 }
 
+.filler2 {
+  width: 60%; 
+  height: 50%; 
+  margin-left: 12%;
+  margin-top: 12%;
 
-.filler {
-    width: 400%;
-    height: 20%; 
-    margin-left: -48.5rem;
-    margin-top: 60%;
+ 
+  position: absolute;
+
 
 
 }
 
 
-.row2{
-    display: flex; 
+.words {
+    margin-left: -242%;
+    margin-top: -50%;
+    margin-bottom: -5%;
+    margin-right: -30%;
+    font-size: 250%;
+    letter-spacing: 2px;
+    width: 150%;
+
 }
 
-.row-lg-6 {
-    margin: 25%; 
+ .paragraph{
+margin-top: 203%;
+margin-bottom: -2%;
+margin-left: -145%;
+
+   
+  
+    width: 180%;
+}
+
+p, h3 {
+    font-family: 'Mada', sans-serif;
+}
+
+.map {
+    height: 30%;
+    width: 180%; 
+    margin-left: -242%; 
+    margin-top: 15%;
+
+}
+
+.carousel {
+    margin-left: -55%;
+    margin-top: -123%;
+    width: 100%;
+
+}
+
+.d-block {
+    height: 30%; 
+
 }
