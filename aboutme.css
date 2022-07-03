@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mada:wght@200;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Mada:wght@200;900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 
 body {
     background-color: #faebd7;
@@ -33,7 +35,7 @@ body{
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #bab86c;
+    background: #9c9f84;
     color: #fff;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
     transition: all 0.3s;
@@ -104,7 +106,7 @@ p, .sidebar-header {
 
 
 a, a:hover, h1, h3 {
-    font-family: 'Mada', sans-serif;
+
     color: black; 
 }
 
@@ -131,9 +133,8 @@ h1 {
 
 .arabic {
     margin-top: -10%; 
-    margin-left: 10%;
+    margin-left: 8%;
 }
-
 
 
 .naming {
@@ -142,15 +143,20 @@ h1 {
     background-color: black;
     border: none;
     text-decoration: bold;
-    margin-left: 12%;
+    margin-left: 16%;
     margin-top: -3%;
     color: white !important ; 
 }
 
-
+.name {
+    font-family: 'DM Serif Display', serif !important;
+    font-weight: bold;
+    letter-spacing: normal !important;
+}
 
 .about {
-   margin-left: 85%;
+
+margin-left: 79.5%;
    margin-top: 5%;
    margin-bottom: -3%;
 }
@@ -167,60 +173,146 @@ h1 {
 }
 
 .filler2 {
-  width: 60%; 
-  height: 50%; 
-  margin-left: 12%;
-  margin-top: 12%;
+  width: 110%; 
+  height: 115%; 
 
- 
-  position: absolute;
-
+margin-left: -70%; 
+margin-top: 60%;
+margin-bottom: -80%;
 
 
 }
 
+
+.link-dark {
+    font-weight: bold;
+}
+
+
+
+
+ /* .d-block {
+height: 50%;
+width: 0% !important;
+margin-left: 0%;
+margin-top: 60%;
+
+} */
+
+
+
+.paragraph {
+    width: 73.5%;
+    margin-left: -10.75%;
+    margin-top: 2.2%;
+
+}
+
+.row2 {
+    margin-left: -200%;
+    margin-top: 80%;
+}
+.words, .words2, .words3 {
+font-size: 400%; 
+letter-spacing: 3px; 
+font-weight: bold !important;
+font-family: 'DM Serif Display', serif !important;
+}
+
+.words2 {
+    margin-top: -2%;
+    margin-bottom: 5%;
+}
+#words {
+
+    margin-top: -39%;
+    margin-left: -4.5%;
+}
 
 .words {
-    margin-left: -242%;
-    margin-top: -50%;
     margin-bottom: -5%;
-    margin-right: -30%;
-    font-size: 250%;
-    letter-spacing: 2px;
-    width: 150%;
+}
+
+
+.words2 {
+    margin-top: 7%;
+}
+.progress-bar {
+    margin-right: -100%; 
 
 }
 
- .paragraph{
-margin-top: 203%;
-margin-bottom: -2%;
-margin-left: -145%;
 
-   
+
+.row3 {
+    margin-top: 2%;
+    margin-bottom: -5%;
+    margin-left: -187%;
+}
+
+.row4 {
   
-    width: 180%;
+    margin-left: -88.4%;
+    margin-top: 95%;
 }
 
-p, h3 {
-    font-family: 'Mada', sans-serif;
+
+
+.d-block {
+    width: 90% !important;
+    height: 80%;
+}
+
+
+
+.carousel-item {
+    width: 80%;
+}
+
+.beforeAfter {
+    width: 20%;
+    margin-right: 23%;
+}
+
+.carousel-nav{
+    margin-right: 30%;
+}
+
+.nav {
+    margin-left: -5%;
+}
+
+
+h5 {
+    margin-left: -10%;
+}
+
+.turkey {
+    text-decoration-color: #000;
 }
 
 .map {
-    height: 30%;
-    width: 180%; 
-    margin-left: -242%; 
-    margin-top: 15%;
-
+    width: 79%; 
 }
 
-.carousel {
-    margin-left: -55%;
-    margin-top: -123%;
-    width: 100%;
-
+.mapText {
+    margin-top: 7%;
+    width: 73.5%;
+    margin-left: 1%;
+}
+.generalMap {
+    margin-left: -15%;
+    margin-top: 3%;
 }
 
-.d-block {
-    height: 30%; 
 
+
+
+.copyright {
+    font-size: 90%;
+    margin-left: 10%;
+}
+
+.paragraph, .mapText {
+    font-family: 'Mada', sans-serif;
 }

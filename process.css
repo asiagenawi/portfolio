@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@200;900&display=swap');
+
+body {
+    background-color: #faebd7;
+    background-image: url("");
+
+} 
+/* Reseting */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    min-height: 100vh;
+    margin-left: 15rem; 
+    align-items: center;
+    justify-content: center;
+}
+
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar1 {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #bab86c;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    transition: all 0.3s;
+}
+
+.sidebar-header2 {
+  width: 30% !important;
+  position: fixed;
+  background-color: #404040;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  opacity: 0.7; 
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  transition: all 0.3s;
+  margin-left: 70%;
+  z-index: 999;
+  position: absolute;
+
+}
+
+
+
+
+
+.li {
+    margin: 1rem;
+    margin-left: 0.75rem; 
+    color: black !important; 
+    font-size: 110%;
+}
+
+.size {
+    font-size: 90%;
+}
+
+
+p, .sidebar-header {
+    color: black; 
+}
+
+.logo {
+    width: 2rem; 
+    height: 2rem;
+}
+
+.github {
+    width: 2.25rem !important; 
+    height: 2.25rem !important; 
+}
+
+.socials {
+    margin-top: 140%;
+}
+
+
+.list-unstyled {
+  margin-left: 1rem; 
+}
+
+.name {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+
+
+a, a:hover, h1, h3, li {
+
+    color: black; 
+}
+
+
+
+
+
+
+h1 {
+    margin-left: 9%; 
+    margin-top: 4.95%; 
+   
+}
+
+
+#name {
+    border-bottom: 1px solid #000; 
+    padding-bottom: 3px; 
+  
+    margin-left: 10%;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.arabic {
+    margin-top: -10%; 
+    margin-left: 8%;
+}
+
+.link-dark {
+   
+    font-weight: bold;
+}
+
+
+.naming {
+    width: 60%;
+    height: 1px;
+    background-color: black;
+    border: none;
+    text-decoration: bold;
+    margin-left: 16%;
+    margin-top: -3%;
+    color: white !important ; 
+}
+
+
+.naming {
+    width: 60%;
+    height: 1px;
+    background-color: black;
+    border: none;
+    text-decoration: bold;
+    margin-left: 12%;
+    margin-top: -3%;
+    color: white !important ; 
+}
+
+
+.line {
+    margin-top: 5.51%;
+    width: 75rem;
+    margin-bottom: 92%; 
+}
+.process {
+    margin-left:66.2%;
+    margin-top: 5%;
+    margin-top: 5%;
+    margin-bottom: -3%;
+    width: 100%;
+
+}
+
+
+
+.container2 {
+    background-color: #faebd7;
+
+    width: 90%; 
+    margin:100px auto ;
+    margin-top: -90%;
+    /* display: flex; */ 
+    padding: 5%; 
+}
+
+
+.box1, .box2, .box3, .box4 {
+
+    padding: 10%; 
+    height: 5%;
+    border: #faebd7 solid 3px; 
+   flex: 1; 
+   transition: 2s; 
+   text-align: center;
+}
+
+.box1{
+    background-color: #9c9f84;
+}
+.box2{
+    background-color: #a97d5d;
+}
+.box3{
+    background-color: #f7dcb4;
+}
+.box4{
+    background-color: #5c755e;
+}
+
+.box1:hover {
+     margin-bottom: -30%;
+    margin-top:16%; 
+    
+    left:25%; 
+    /* flex: 4; */
+    transform: scale(2, 2.2);
+    transition: all 1s ease-in-out; 
+    width: 200%; 
+    background-color: beige;
+    z-index: 9;
+    
+}
+
+
+.box3:hover {
+   /* flex: 4; */
+   transform: scale(2, 2.2);
+   transition: all 1s ease-in-out; 
+   width: 200%; 
+   background-color: #ecdec9;
+   z-index: 9;
+   margin-bottom: -30%;
+   margin-top:-14%; 
+   left:25%; 
+}
+
+.box2:hover {
+    /* flex: 4; */
+    transform: scale(2, 2.2);
+    transition: 1s ease-in-out; 
+    width: 200%; 
+    background-color: #ab8b79;
+    z-index: 9;
+    margin-bottom: -30%;
+    margin-top:16%; 
+    
+    left:-25%; 
+ }
+ .box4:hover {
+    /* flex: 4; */
+    transform: scale(2, 2.2);
+    transition: 1s ease-in-out; 
+    width: 200%; 
+    background-color: #2a4930;
+    z-index: 9;
+    margin-bottom: -30%;
+    margin-top:-14%; 
+    
+    left:-25%; 
+ }
+
+ .other {
+    margin-left: -100%;
+    margin: 20%; 
+}
+
+.othersLine {
+    width: 100%;
+}
+.color {
+    margin-left: -82%;
+    z-index: 9;
+    font-size: 300%;
+    margin-top: 10%;
+}
+.colors1 {
+width: 50%;
+}
+.colors2 {
+    width: 10.9%;
+    }
+
+
+    .sketches {
+        width:23%;
+        height:70%; 
+        margin-left: 1%;
+    }
+    .sketches2 {
+margin-top: 0%;
+    }
+
+    .sketches1 {
+        margin-left: 3%;
+    }
+
+    .sketch {
+        margin-top: 130%;
+        margin-left: -150%;
+        font-size: 30px;
+        
+        
+    }
+
+    .titles4 {
+        color: white;
+    }
+
+    .copyright {
+        font-size: 90%;
+        margin-left: 10%;
+    }

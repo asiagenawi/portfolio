@@ -1,6 +1,0 @@
-$( ".container" ).hover(function() {
-  $( ".container .box .body .content div" ).show(function() {
-
-});
-
-

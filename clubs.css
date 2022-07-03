@@ -19,6 +19,27 @@ body{
     justify-content: center;
 }
 
+.arabic {
+    margin-top: -10%; 
+    margin-left: 8%;
+}
+
+
+.link-dark {
+    font-family: 'DM Serif Display', serif !important;
+    font-weight: bold;
+}
+ 
+.naming {
+    width: 60%;
+    height: 1px;
+    background-color: black;
+    border: none;
+    text-decoration: bold;
+    margin-left: 16%;
+    margin-top: -3%;
+    color: white !important ; 
+}
 
 .wrapper {
     display: flex;
@@ -32,7 +53,7 @@ body{
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #bab86c;
+    background:  #9c9f84;
     color: #fff;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
     transition: all 0.3s;
@@ -41,9 +62,13 @@ body{
 li {
     margin: 1rem;
     margin-left: 0.75rem; 
-    font-family: Julius Sans One, sans-serif !important;
+    font-family: Julius Sans One, sans-serif ;
     color: black !important; 
     font-size: 110%;
+}
+.link-dark{
+    font-family: 'DM Serif Display', serif !important;
+    font-weight: bold;
 }
 
 .size {
@@ -89,21 +114,15 @@ p, .sidebar-header {
 
 a, a:hover {
     color: black; 
-    font-family: 'Mada', sans-serif;
-
-}
-
-a, h3, h1 {
-    font-family: 'Mada', sans-serif;
+    
 
 }
 
 
 
-
-
-
-
+.awards {
+    margin-left: 11.5%;
+}
 
 .container{
     transform-style: preserve-3d;
@@ -192,14 +211,14 @@ a, h3, h1 {
 .box {
   
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-    border-radius: 5%;
+    border-radius: 3%;
 
   
 
 }
 
 .round {
-    border-radius: 5%;
+    border-radius: 3%;
 }
 
 
@@ -211,8 +230,10 @@ h1 {
 }
 
 
-
-
+.copyright {
+    font-size: 90%;
+    margin-left: 10%;
+}
 
 
 
@@ -305,9 +326,19 @@ h1 {
     margin-top: -3%;
 }
 
+.name {
+    font-family: 'DM Serif Display', serif !important;
+    font-weight: bold;
+    letter-spacing: normal !important;
+}
 .about {
     margin-left: 100%;
     margin-right: -20%;
     margin-top: 3%;
+}
+
+
+.link-dark,.sidebar-header {
+    font-family: 'Arimo', sans-serif !important;
 }
 
