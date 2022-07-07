@@ -180,7 +180,7 @@ h1 {
     position: relative;
     
     height: 5%;
-    background-color: #9c9f84;
+    background-color: #5c755e;
 }
 .button1 {
     background-color: #f7dcb4;
@@ -292,7 +292,7 @@ width: 110%;
     position: relative;
     width: 75%;
     height: 97%;
-    background-color: #005a5a;
+    background-color: #5c755e;
     margin-left: 20.5%;
     border-radius: 10px;
 }
@@ -312,7 +312,7 @@ width: 110%;
 }
 .oud2 {
     margin-top: 10%;
-    height: 25%
+    height: 15%
 }
 
 .description, .date {
@@ -331,4 +331,75 @@ width: 110%;
     width: 50%;
     height: 50%;
     border: 1px solid black;
+}
+
+.PortfolioProject1 {
+    margin-top: 15%;
+}
+
+.filler5 {
+    margin-left: -0.7%;
+    height: 80%; 
+
+}
+
+.title5 {
+    width: 100%; 
+margin-left: 45%;
+}
+
+
+.PortfolioProject2 {
+    margin-top: 15%; 
+    margin-bottom: 10%;
+}
+
+
+#container1 {
+    position: relative;
+    
+
+    background-color: #faebd7;
+}
+.button4 {
+    background-color: lightblue;
+    width: 20%;
+    height: 5%;
+    margin-top: 3%;
+
+}
+.button5 { 
+    background-color: #5c755e ;
+    width:  20%;
+    height: 5%;
+   
+}
+.button6 {
+    background-color: lightpink;
+    width:  20%;
+    height: 5%;
+    
+}
+
+
+#container1 {
+    width: 70%;
+    height: 300px; 
+    border: 55px solid;
+    border-color: #5c755e;
+    padding: 5px;
+    margin: 20px;
+    margin-top: -5%;
+    border-radius: 10px;
+
+}
+
+.changer {
+    height: 30%;
+    width: 100%
+    
+}
+
+.hireMe {
+    height: 85%;
 }

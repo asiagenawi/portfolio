@@ -315,3 +315,8 @@ margin-top: 0%;
         font-size: 90%;
         margin-left: 10%;
     }
+
+
+    .button4, .button5, .button6 {
+        background-color: black;
+    }
