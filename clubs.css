@@ -186,17 +186,24 @@ a, a:hover {
     transform: rotateY(180deg);
 }
 
+
+
+
+
 .container .box .body .content div{
     transform-style: preserve-3d;
     padding: 20px;
     background: linear-gradient(45deg, #FE0061,#FFEB3B);
     transform: translateZ(100px); 
-}
+} 
+
+
 
 
 .container .box .body .content div h3{
     letter-spacing: 1px;
 }
+
 
 
 .white {
@@ -309,6 +316,7 @@ h1 {
     padding-bottom: 5px;
 }
 
+
 .arabic {
     margin-top: -10%; 
     margin-left: 10%;
@@ -329,7 +337,8 @@ h1 {
 .name {
     font-family: 'DM Serif Display', serif !important;
     font-weight: bold;
-    letter-spacing: normal !important;
+   
+
 }
 .about {
     margin-left: 100%;
@@ -341,4 +350,10 @@ h1 {
 .link-dark,.sidebar-header {
     font-family: 'Arimo', sans-serif !important;
 }
+
+
+
+
+
+
 

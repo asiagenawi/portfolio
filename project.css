@@ -294,6 +294,7 @@ width: 110%;
     height: 97%;
     background-color: #005a5a;
     margin-left: 20.5%;
+    border-radius: 10px;
 }
 .button1,.button2,.button3 {
     background-color: #D3D3D3;
@@ -311,8 +312,23 @@ width: 110%;
 }
 .oud2 {
     margin-top: 10%;
+    height: 25%
 }
 
 .description, .date {
     font-family: 'Mada', sans-serif;
+}
+.PortfolioProject {
+    margin-bottom: 10%;
+}
+
+.filler3, .filler4 {
+    border-radius: 10px;
+}
+
+
+#color_box {
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
 }
