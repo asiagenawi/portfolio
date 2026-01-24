@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:justinemach.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:wlab.yale.edu)",
+      "WebFetch(domain:www.coca-colascholarsfoundation.org)",
+      "WebFetch(domain:www.aspirations.org)",
+      "WebFetch(domain:mirrorindy.org)",
+      "WebFetch(domain:www.wrtv.com)",
+      "Bash(python3:*)",
+      "Bash(pip3 install:*)",
+      "Bash(sips:*)",
+      "Bash(open:*)"
+    ]
+  }
+}
